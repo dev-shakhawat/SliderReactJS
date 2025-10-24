@@ -1,0 +1,20 @@
+.slides {
+          touch-action: pan-y pinch-zoom;
+        }
+        
+        @media (max-width: 768px) {
+          .prevArrow, .nextArrow {
+            opacity: 0.9;
+          }
+          
+          .prevArrow:hover, .nextArrow:hover {
+            opacity: 1;
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .prevArrow, .nextArrow {
+            width: 32px;
+            height: 32px;
+          }
+        }
